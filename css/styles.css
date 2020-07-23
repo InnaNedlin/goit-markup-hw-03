@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Остальной код */
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -6,11 +18,12 @@
   --dark-color: #000000;
 }
 
-
-.list-item:nth-child(2n + 1) {
-  background-color: tomato;
+h1,
+h2,
+h3{
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
 
 .nav-link:hover,
 .nav-link:focus,
@@ -27,6 +40,8 @@
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0em;
 }
 
 body {
@@ -37,6 +52,19 @@ body {
   font-weight: 400;
 }
 /* Шапка сайта */
+.container{
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid brown;
+}
+
+}
+.container-nav{
+width: 294px;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -53,10 +81,28 @@ color: #2196F3;
 
 
 /* Navigation */
+
+.site-nav{
+  display: flex;
+}
+
+/* .site-nav .item:not(:last-child){
+  margin-right: 50px;
+} */
+
+.site-nav .item+ .item{
+  margin-left: 50px;
+}
+
+.site-nav .item {
+  outline: 5px solid orange;
+}
+
 .site-nav .nav-link.current {
   color:#2196F3;
 }
 .nav-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,6 +113,10 @@ color: #2196F3;
 
 /* .contact-us; */
 
+.contact-us {
+  display: flex;
+}
+
 .contact-link {
   font-weight: 500;
   font-size: 14px;
@@ -76,11 +126,22 @@ color: #2196F3;
   text-decoration: none;
 }
 
+.contact-us .item+.item {
+  margin-left: 30px ;
+}
+
 /* Герой */
+.hero{
+  text-align: center;
+}
+
 .page-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+
   /* or 136% */
 
   text-align: center;
@@ -90,18 +151,31 @@ color: #2196F3;
 }
 
 .btn {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  text-decoration: none;
   letter-spacing: 0.06em;
   background: #2196f3;
   color: #ffffff;
 }
 
 /* <!--Преимушества--> */
+/* .section{
+width: 1170px;
+padding:30px;
+background-color: yellow;
+} */
+
 .section-title {
+  margin-top: 0px;
+margin-bottom: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -219,3 +293,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF
 }
+
+/* .section-padding{
+  padding: 94px} */
