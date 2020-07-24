@@ -56,7 +56,9 @@ body {
   /* font-style: normal; */
   font-weight: 400;
 }
+
 /* Шапка сайта */
+
 .container {
   width: 1200px;
   padding-right: 15px;
@@ -77,7 +79,7 @@ body {
 } */
 
 .logo {
-  margin margin-left: 85px;
+  margin-right: 85px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -193,7 +195,7 @@ background-color: yellow;
   letter-spacing: 0.03em;
 }
 
-.feature-list{
+.feature-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -206,9 +208,9 @@ background-color: yellow;
   text-transform: uppercase;
 }
 
-.feature-list> .item{
+.feature-list > .item {
   width: 270px;
-background-color: peru;
+  background-color: peru;
 }
 
 .section .description {
