@@ -55,6 +55,7 @@ body {
   font-family: Roboto, sans-serif;
   /* font-style: normal; */
   font-weight: 400;
+  margin: 0;
 }
 
 /* Шапка сайта */
@@ -147,7 +148,7 @@ body {
   text-align: center;
 }
 
-.page-title {
+.hero-title {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 900;
