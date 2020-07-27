@@ -13,40 +13,39 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header>
-      <!--Навигация-->
-      <section>
-        <div class="container main-nav">
-          <nav>
-            <a href="./index.html" class="logo">
-              <span class="web"> Web</span> Studio</a
-            >
-            <ul class="site-nav list">
-              <li class="item">
-                <a href="./index.html" class="nav-link current">Студия</a>
-              </li>
-              <li class="item">
-                <a href="./portfolio.html" class="nav-link">Портфолио</a>
-              </li>
-              <li class="item">
-                <a href="./index.html" class="nav-link">Контакты </a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="contact-us list">
+    <header class="page-header">
+      <div class="container flexbox">
+        <!--Навигация-->
+        <nav class="navigation">
+          <a href="./index.html" class="logo">
+            <span class="web"> Web</span> Studio</a
+          >
+          <ul class="menu-nav list">
             <li class="item">
-              <a href="mailto:info@devstudio.com" class="contact-link"
-                >info@devstudio.com</a
-              >
+              <a href="./index.html" class="nav-link current">Студия</a>
             </li>
             <li class="item">
-              <a href="tel:+380961111111" class="contact-link"
-                >+38 096 111 11 11</a
-              >
+              <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="./index.html" class="nav-link">Контакты </a>
             </li>
           </ul>
-        </div>
-      </section>
+        </nav>
+        <!-- имейл и телефон -->
+        <ul class="contact-us list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="email contact-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact-link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <!--Герой-->
@@ -396,75 +395,75 @@
     </main>
     <!--Футер-->
     <footer>
-      <div>
-        <a href="./index.html" class="footer-logo">
-          <span class="web"> Web </span> Studio
-        </a>
-      </div>
+      <div class="container">
+        <!-- logo-address-in-footer -->
+        <div class="logo-address">
+          <a href="./index.html" class="footer-logo">
+            <span class="web"> Web </span> Studio
+          </a>
+          <address>
+            <p class="contacts-link">г. Киев, пр-т Леси Украинки, 26</p>
 
-      <div>
-        <address>
-          <p class="contacts-link">г. Киев, пр-т Леси Украинки, 26</p>
-
-          <ul>
-            <li class="list">
-              <a href="mailto:info@example.com" class="contacts-item"
-                >info@example.com</a
+            <ul>
+              <li class="list">
+                <a href="mailto:info@example.com" class="contacts-item"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="list">
+                <a href="tel:+380991111111" class="contacts-item"
+                  >tel:+380991111111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!-- Join-in-footer -->
+        <div class="join">
+          <b class="join">Присоединяйтесь</b>
+          <ul class="list social-list">
+            <li class="social-item">
+              <a
+                href="#"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на Instagram"
+                >Instagram</a
               >
             </li>
-            <li class="list">
-              <a href="tel:+380991111111" class="contacts-item"
-                >tel:+380991111111</a
+            <li class="social-item">
+              <a
+                href="#"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на Twitter"
+                >Twitter</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                href="#"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на Facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                href="#"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на LinkedIn"
+                >LinkedIn</a
               >
             </li>
           </ul>
-        </address>
-      </div>
-
-      <div>
-        <b class="join">Присоединяйтесь</b>
-        <ul class="list social-list">
-          <li class="social-item">
-            <a
-              href="#"
-              class="social-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на Instagram"
-              >Instagram</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              href="#"
-              class="social-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на Twitter"
-              >Twitter</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              href="#"
-              class="social-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на Facebook"
-              >Facebook</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              href="#"
-              class="social-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на LinkedIn"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
+        </div>
       </div>
     </footer>
   </body>
