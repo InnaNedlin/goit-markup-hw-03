@@ -15,34 +15,37 @@
 
   <body>
     <!-- Шапка сайта  -->
-    <!-- НЕ ДЕЛАЛА КОНТЕЙНЕР -->
-    <header>
-      <div>
-        <a href="./index.html" class="logo">
-          <span class="web"> Web</span> Studio</a>
-      </div>
-      <nav>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="nav-link">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="nav-link current">Портфолио</a>
+    <header class="page-header">
+      <div class="container flexbox">
+        <!--Навигация-->
+        <nav class="navigation">
+          <a href="./index.html" class="logo">
+            <span class="web"> Web</span> Studio</a>
+          <ul class="menu-nav list">
+            <li class="item">
+              <a href="./index.html" class="nav-link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="./index.html" class="nav-link">Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- имейл и телефон -->
+        <ul class="contact-us list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="email contact-link">info@devstudio.com</a>
           </li>
-          <li><a href="#" class="nav-link">Контакты </a></li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="contact-us list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
-    <!--Герой-->
 
+    <!--Герой-->
     <main>
       <section class="main-section">
         <div class="container">
