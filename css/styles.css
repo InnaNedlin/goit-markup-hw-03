@@ -339,7 +339,18 @@ body {
 
 /* footer */
 
-.footer-logo {
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.logo-address {
+  display: block;
+}
+
+.logo-address .footer-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -349,6 +360,10 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+
+.footer-logo {
+  margin-bottom: 20px;
+}
 .contacts-link {
   font-size: 14px;
   line-height: 1.71;
@@ -357,6 +372,10 @@ body {
   color: #ffffff;
   font-style: normal;
   text-decoration: none;
+}
+
+.contacts-margin:not(:last-child):not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contacts-address {
@@ -377,6 +396,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   text-decoration: none;
+}
+
+/* join */
+.join-menu {
+  display: block;
 }
 
 .join {
