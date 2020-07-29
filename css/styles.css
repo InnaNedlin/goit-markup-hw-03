@@ -72,15 +72,14 @@ body {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid brown;
+  /* outline: 1px solid brown; */
 }
 
 /* /* .section{ */
 
 .section {
   padding: 94px 0;
-  background-color: yellow;
-  outline: 2px solid #212121;
+  /* background-color: yellow; */
 }
 
 /* Навигация */
@@ -115,7 +114,7 @@ body {
 }
 
 .menu-nav .item {
-  outline: 5px solid orange;
+  /* outline: 5px solid orange; */
   /* padding: 32px 0; */
 }
 
@@ -165,7 +164,7 @@ body {
 /* Герой */
 .hero {
   text-align: center;
-  background-color: springgreen;
+  /* background-color: springgreen; */
 }
 
 .hero-title {
@@ -217,7 +216,7 @@ body {
 
 .feature-list > .item {
   width: 270px;
-  background-color: peru;
+  /* background-color: peru; */
   /* margin-top: 94px;
   margin-bottom: 94px; */
 }
