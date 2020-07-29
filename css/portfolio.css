@@ -55,7 +55,8 @@ body {
   /* display: flex; */
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: cyan;
+
+  /* background-color: cyan; */
 }
 
 .container {
@@ -145,7 +146,7 @@ body {
 
 .section {
   padding: 94px 0;
-  background-color: yellow;
+  /* background-color: yellow; */
   outline: 2px solid #212121;
 }
 
@@ -195,40 +196,37 @@ a {
   flex-wrap: wrap;
   /* margin: -15px; */
   /* outline-color: rgb(80, 47, 80); */
-  background-color: seagreen;
+  /* background-color: seagreen; */
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .container-element {
-  width: calc((100% - 60px) / 3);
-  /* width: calc ((100% - 60px) / 3); */
-  /* width: 370px; */
   margin-right: 30px;
+  /* width: calc((100% - 60px) / 3); */
+  width: 370px;
+  /* margin-right: 30px; */
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
 }
 
-.container-element:nth-child(3n) {
-  margin-right: o;
+.container-element:nth-child(3n + 0) {
+  margin-right: 0;
 }
 
-/* .container-element:nth-last-child(-n + 3) {
-  margin-bottom: o;
-  background-color: springgreen;
-} */
-
 .list-link {
-  color: var(--title-text-color);
+  /* color: var(--title-text-color); */
   text-decoration: none;
 }
 
 .description {
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
   padding: 24px 20px;
 }
 
 .section-title {
+  /* margin-top: 20px; */
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -312,7 +310,8 @@ a {
   text-decoration: none;
 }
 
-/* join */
+/* Присоединяйтесь */
+
 .join-menu {
   display: block;
   width: 270px;
