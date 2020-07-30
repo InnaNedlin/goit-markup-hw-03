@@ -168,10 +168,12 @@ body {
 }
 
 .hero-title {
-  /* margin-top: 200px;
-    margin-left: 452px;
-  margin-right: 452px; */
-  /* margin-bottom: 30px; */
+  margin-top: 200px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -179,6 +181,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  /* color: rgb(152, 152, 160); */
 }
 
 .btn {
@@ -198,6 +201,10 @@ body {
 }
 
 /* <!--Преимушества--> */
+
+.margin-top {
+  padding-top: 0;
+}
 
 .section-title {
   margin-bottom: 50px;
@@ -222,7 +229,7 @@ body {
 }
 
 .list-title {
-  /* margin-top: 30px; */
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -232,9 +239,10 @@ body {
 }
 
 .section .description {
+  margin-bottom: 0;
+  margin-top: 0;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -247,10 +255,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--white-color);
 }
+
 /* work */
+
 .work-list {
   display: flex;
 }
@@ -271,6 +280,7 @@ body {
 }
 
 /* Наша команда */
+
 .background {
   background-color: #f5f4fa;
 }
@@ -285,6 +295,7 @@ body {
 .team-member {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
+  background-color: #ffffff;
 }
 
 .team-member:nth-child(4n) {
@@ -294,8 +305,8 @@ body {
 .team-title {
   margin-top: 30px;
   margin-bottom: 10px;
-  /* margin-left: 56px;
-  margin-right: 56px; */
+  margin-left: 56px;
+  margin-right: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -305,7 +316,10 @@ body {
 }
 
 .position-name {
+  margin-top: 0;
   margin-bottom: 16px;
+  margin-left: 70px;
+  margin-right: 70px;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
@@ -334,6 +348,11 @@ body {
 .clients-list {
   display: flex;
   align-items: center;
+}
+
+.clients-item {
+  width: 170px;
+  height: 90px;
 }
 
 .clients-item:not(:last-child) {
