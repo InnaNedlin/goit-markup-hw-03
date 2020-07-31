@@ -223,7 +223,7 @@ a {
 }
 
 .description {
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
   padding: 24px 20px;
   width: 370px;
   border-right: 1px solid #eeeeee;
