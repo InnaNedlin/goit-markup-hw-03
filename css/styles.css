@@ -288,6 +288,7 @@ body {
 }
 
 .team-member {
+  display: block;
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
   background-color: #ffffff;
@@ -297,8 +298,10 @@ body {
   margin-right: 0;
 }
 
+.image {
+  margin-bottom: 30px;
+}
 .team-title {
-  margin-top: 30px;
   margin-bottom: 10px;
   margin-left: 56px;
   margin-right: 56px;
@@ -313,8 +316,8 @@ body {
 .position-name {
   margin-top: 0;
   margin-bottom: 16px;
-  margin-left: 70px;
-  margin-right: 70px;
+  /* margin-left: 70px;
+  margin-right: 70px; */
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
@@ -327,12 +330,13 @@ body {
 .social-list {
   display: flex;
   height: 44px;
+  width: 270px;
   justify-content: center;
 }
 
-.social-item {
+/* .social-item {
   width: 20px;
-}
+} */
 
 .social-item:not(:last-child) {
   margin-right: 10px;
