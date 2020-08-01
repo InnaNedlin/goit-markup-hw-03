@@ -344,6 +344,7 @@ body {
 
 .social-item {
   display: block;
+  padding-bottom: 24px;
   width: 44px;
   height: 44px;
   color: #afb1b8;
@@ -443,4 +444,26 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+/* social list footer*/
+
+.social-list {
+  display: flex;
+  height: 44px;
+  width: 270px;
+  justify-content: center;
+}
+
+.social-item-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-item-footer {
+  display: block;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  text-decoration: none;
+  text-align: center;
 }

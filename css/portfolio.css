@@ -335,31 +335,20 @@ a {
   color: #ffffff;
 }
 
-/* social list */
+/* social list footer*/
 
 .social-list {
   display: flex;
   height: 44px;
+  width: 270px;
   justify-content: center;
 }
 
-.social-item {
-  width: 20px;
-}
-
-.social-item:not(:last-child) {
+.social-item-footer:not(:last-child) {
   margin-right: 10px;
 }
 
-/* .social-item:first-child {
-  margin-left: 32px;
-}
-
-.social-item:last-child {
-  margin-right: 32px;
-} */
-
-.social-item {
+.social-item-footer {
   display: block;
   width: 44px;
   height: 44px;
