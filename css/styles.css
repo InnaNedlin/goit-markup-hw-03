@@ -42,6 +42,8 @@ h3 {
 .social-item:focus,
 .social-link:hover,
 .social-link:focus,
+.social-link-footer:hover,
+.social-link-footer:focus,
 .clients-link:hover,
 .clients-link:focus {
   color: #2196f3;
@@ -340,22 +342,32 @@ body {
   justify-content: center;
 }
 
-/* .social-item {
+.social-item {
   width: 20px;
-} */
+}
 
 .social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-item {
+.social-link {
   display: block;
+  content: "";
+  width: 44px;
+  height: 44px;
+  /* background-image: url("../images/instagram-2.svg");
+    background-repeat: no-repeat; */
+  background-size: 20px;
+  /* background-color: var(--accent-color); */
+  background-position: center;
+  /* border-radius: 50%; */
+  /* display: block;
   padding-bottom: 24px;
   width: 44px;
   height: 44px;
   color: #afb1b8;
   text-decoration: none;
-  text-align: center;
+  text-align: center; */
 }
 
 /* clients */
@@ -454,7 +466,7 @@ body {
 
 /* social list footer*/
 
-.social-list {
+.social-list-footer {
   display: flex;
   height: 44px;
   width: 270px;
