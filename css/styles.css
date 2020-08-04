@@ -166,7 +166,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: springgreen;
+  /* background-color: springgreen; */
 }
 
 .hero-title {
@@ -442,7 +442,7 @@ body {
 
 .join {
   display: block;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -458,7 +458,7 @@ body {
   display: flex;
   height: 44px;
   width: 270px;
-  justify-content: center;
+  justify-content: left;
 }
 
 .social-item-footer:not(:last-child) {
