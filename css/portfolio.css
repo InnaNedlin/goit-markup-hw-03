@@ -220,6 +220,10 @@ a {
   margin-right: 0;
 }
 
+.margin-bottom {
+  margin-bottom: 0;
+}
+
 .list-link {
   /* color: var(--title-text-color); */
   text-decoration: none;
